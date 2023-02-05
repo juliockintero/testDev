@@ -1,0 +1,16 @@
+<h2 class="new_arr">New Arrivals</h2>
+<div id="flex">
+    <div *ngFor="let contact of contacts">
+        <div id=" first_pro" class="one">
+            <div class="img" id={{contact.img}}>
+                <span class="sale_tag">Sale!</span><span [style.background-color]="isButtonPressed ? 'red' : 'white'"
+                    (click)="addToCart(contact)" class="like_btn"><i class="fa-regular fa-heart"></i></span>
+            </div>
+            <p class="caption_">
+                {{contact.name}} <br />
+                <span class="cancelled">{{contact.oldValue}}</span>
+                <span class="new">{{contact.newValue}}</span>
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Green gown",
+        "img": "img1",
+        "oldValue": "$50.00",
+        "newValue": "$30.00"
+    },
+    {
+        "name": "Elegant Top",
+        "img": "img2",
+        "oldValue": "$65.00",
+        "newValue": "$40.00"
+    },
+    {
+        "name": "Get sporty",
+        "img": "img3",
+        "oldValue": "$45.00",
+        "newValue": "$35.00"
+    },
+    {
+        "name": " Chic but silk",
+        "img": "img4",
+        "oldValue": "$70.00",
+        "newValue": "$55.00"
+    },
+    {
+        "name": "Show up classy ",
+        "img": "img5",
+        "oldValue": "$54.00",
+        "newValue": "$43.00"
+    }
+]

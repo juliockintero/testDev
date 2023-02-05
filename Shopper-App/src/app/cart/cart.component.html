@@ -1,0 +1,15 @@
+<h3 class="new_arr">Your Cart:</h3>
+
+<div id="flex">
+    <div *ngFor="let item of items">
+        <div id=" first_pro" class="one">
+            <div class="img" id={{item.img}}>
+                <span class="sale_tag">Sale!</span>
+            </div>
+            <p class="caption_">
+                {{item.name}} <br />
+                <span class="cancelled">{{item.oldValue}}</span>
+                <span class="new">{{item.newValue}}</span>
+            </p>
+        </div>
+    </div>
